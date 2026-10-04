@@ -50,9 +50,9 @@ Note that 'A' and 'a' are treated as two different characters.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 1 ms (beats 68.63%)  
-**Memory:** 11.7 MB (beats 14.96%)  
-**Submitted:** 2026-10-04T10:24:47.736Z  
+**Runtime:** 4 ms (beats 37.34%)  
+**Memory:** 11.6 MB (beats 18.95%)  
+**Submitted:** 2026-10-04T10:25:01.085Z  
 
 ```cpp
 class Solution {
