@@ -43,9 +43,9 @@ Output: 21
 ## Solution
 
 **Language:** C++  
-**Runtime:** 3 ms (beats 29.93%)  
+**Runtime:** 5 ms (beats 19.92%)  
 **Memory:** 8.5 MB (beats 82.91%)  
-**Submitted:** 2026-10-07T02:58:59.717Z  
+**Submitted:** 2026-10-07T02:59:10.741Z  
 
 ```cpp
 class Solution {
