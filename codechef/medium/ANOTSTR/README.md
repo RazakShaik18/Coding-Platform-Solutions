@@ -72,17 +72,47 @@ NO
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:40:25.223Z  
+**Submitted:** 2026-10-07T14:40:54.650Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    int t;
+    cin >> t;
 
+    while (t--) {
+        int n;
+        cin >> n;
+
+        string a, b;
+        cin >> a >> b;
+
+        int ca = 0;
+        int cb = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (a[i] == '1')
+                ca++;
+
+            if (b[i] == '1')
+                cb++;
+        }
+
+        bool pos = false;
+
+        if (ca % 2 == cb % 2)
+            pos = true;
+
+        if (pos)
+            cout << "YES" << endl;
+        else
+            cout << "NO" << endl;
+    }
+
+    return 0;
 }
-
 ```
 
 ---
