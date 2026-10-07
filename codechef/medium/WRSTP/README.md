@@ -77,62 +77,41 @@ YES
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:56:19.053Z  
+**Submitted:** 2026-10-07T15:57:06.874Z  
 
-```c_cpp
-#include <bits/stdc++.h>
-using namespace std;
+```py
+# cook your dish here
+T = int(input())
 
-int main() {
-    int t;
-    cin >> t;
+for _ in range(T):
 
-    while (t--) {
-        int n;
-        cin >> n;
+    N = int(input())
+    s = input()
 
-        string s;
-        cin >> s;
+    x = 0
+    y = 0
 
-        int x = 0;
-        int y = 0;
+    for ch in s:
 
-        for (int i = 0; i < n; i++) {
-            if (s[i] == 'U')
-                y++;
-            else if (s[i] == 'D')
-                y--;
-            else if (s[i] == 'L')
-                x--;
-            else
-                x++;
-        }
+        if ch == 'U':
+            y += 1
 
-        bool pos = false;
+        elif ch == 'D':
+            y -= 1
 
-        if (x == 2 && s.find('R') != string::npos)
-            pos = true;
+        elif ch == 'L':
+            x -= 1
 
-        if (x == -2 && s.find('L') != string::npos)
-            pos = true;
+        elif ch == 'R':
+            x += 1
 
-        if (y == 2 && s.find('U') != string::npos)
-            pos = true;
-
-        if (y == -2 && s.find('D') != string::npos)
-            pos = true;
-
-        if (pos)
-            cout << "YES" << endl;
-        else
-            cout << "NO" << endl;
-    }
-
-    return 0;
-}
+    if abs(x) + abs(y) == 2:
+        print("YES")
+    else:
+        print("NO")
 ```
 
 ---
