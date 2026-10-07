@@ -80,52 +80,52 @@ YES
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:38:22.210Z  
+**Submitted:** 2026-10-07T14:39:53.530Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int T;
-    cin >> T;
+    int t;
+    cin >> t;
 
-    while (T--) {
-        int N;
-        cin >> N;
+    while (t--) {
+        int n;
+        cin >> n;
 
-        string S;
-        cin >> S;
+        string s;
+        cin >> s;
 
         int x = 0;
         int y = 0;
 
-        for (int i = 0; i < N; i++) {
-            if (S[i] == 'U')
+        for (int i = 0; i < n; i++) {
+            if (s[i] == 'U')
                 y++;
-            else if (S[i] == 'D')
+            else if (s[i] == 'D')
                 y--;
-            else if (S[i] == 'L')
+            else if (s[i] == 'L')
                 x--;
-            else if (S[i] == 'R')
+            else
                 x++;
         }
 
-        bool possible = false;
+        bool pos = false;
 
-        if (x == 2 && S.find('R') != string::npos)
-            possible = true;
+        if (x == 2 && s.find('R') != string::npos)
+            pos = true;
 
-        if (x == -2 && S.find('L') != string::npos)
-            possible = true;
+        if (x == -2 && s.find('L') != string::npos)
+            pos = true;
 
-        if (y == 2 && S.find('U') != string::npos)
-            possible = true;
+        if (y == 2 && s.find('U') != string::npos)
+            pos = true;
 
-        if (y == -2 && S.find('D') != string::npos)
-            possible = true;
+        if (y == -2 && s.find('D') != string::npos)
+            pos = true;
 
-        if (possible)
+        if (pos)
             cout << "YES" << endl;
         else
             cout << "NO" << endl;
