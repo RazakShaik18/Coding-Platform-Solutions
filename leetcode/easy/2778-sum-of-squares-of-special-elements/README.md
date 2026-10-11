@@ -42,9 +42,9 @@ Hence, the sum of the squares of all special elements of nums is nums[1]  *nums[
 ## Solution
 
 **Language:** C++  
-**Runtime:** 1 ms (beats 13.19%)  
-**Memory:** 40 MB (beats 75.26%)  
-**Submitted:** 2026-10-11T13:05:03.423Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 40.1 MB (beats 75.26%)  
+**Submitted:** 2026-10-11T13:05:58.204Z  
 
 ```cpp
 class Solution {
