@@ -52,12 +52,12 @@ The first three terms have a sum of `0 + 1 + 1 = 2`.
 
 **Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 7.7 MB (beats 81.26%)  
-**Submitted:** 2026-10-13T16:25:58.193Z  
+**Memory:** 8 MB (beats 20.49%)  
+**Submitted:** 2026-10-13T16:33:11.105Z  
 
 ```cpp
 
-class Solution {
+/*class Solution {
 public:
     bool threeFibonacciSum(int n) {
         int a = 0;
@@ -80,6 +80,22 @@ public:
         }
 
         return false;
+    }
+};*/
+class Solution {
+public:
+    bool isPerfectSquare(long long x) {
+        long long r = sqrt(x);
+        return r * r == x;
+    }
+
+    bool threeFibonacciSum(int n) {
+        if (n % 2 != 0) return false;
+
+        long long x = n / 2;
+
+        return isPerfectSquare(5 * x * x + 4) ||
+               isPerfectSquare(5 * x * x - 4);
     }
 };
 
