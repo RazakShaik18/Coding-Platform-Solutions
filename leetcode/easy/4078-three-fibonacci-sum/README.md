@@ -52,8 +52,8 @@ The first three terms have a sum of `0 + 1 + 1 = 2`.
 
 **Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 7.8 MB (beats 81.26%)  
-**Submitted:** 2026-10-13T00:44:31.110Z  
+**Memory:** 7.7 MB (beats 81.26%)  
+**Submitted:** 2026-10-13T16:25:58.193Z  
 
 ```cpp
 
