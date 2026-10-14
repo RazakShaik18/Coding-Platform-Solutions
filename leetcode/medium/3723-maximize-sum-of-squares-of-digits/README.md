@@ -68,9 +68,9 @@ There are no integers that have exactly 1 digit and whose digits sum to 10. Ther
 ## Solution
 
 **Language:** C++  
-**Runtime:** 72 ms (beats 39.59%)  
-**Memory:** 61.8 MB (beats 78.17%)  
-**Submitted:** 2026-10-14T11:52:57.688Z  
+**Runtime:** 71 ms (beats 42.64%)  
+**Memory:** 61.9 MB (beats 74.62%)  
+**Submitted:** 2026-10-14T11:53:13.647Z  
 
 ```cpp
 
