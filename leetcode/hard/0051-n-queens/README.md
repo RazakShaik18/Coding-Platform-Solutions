@@ -39,8 +39,8 @@ Output: [["Q"]]
 
 **Language:** C++  
 **Runtime:** 2 ms (beats 71.73%)  
-**Memory:** 10.1 MB (beats 77.14%)  
-**Submitted:** 2026-10-14T12:13:57.817Z  
+**Memory:** 10 MB (beats 99.65%)  
+**Submitted:** 2026-10-14T12:14:50.522Z  
 
 ```cpp
 class Solution {
