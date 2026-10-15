@@ -56,7 +56,7 @@ The sum of the squares of the distinct counts in all subarrays is equal to 12 + 
 **Language:** C++  
 **Runtime:** 36 ms (beats 34.89%)  
 **Memory:** 36.4 MB (beats 58.72%)  
-**Submitted:** 2026-10-15T13:49:02.969Z  
+**Submitted:** 2026-10-15T13:49:20.630Z  
 
 ```cpp
 
