@@ -54,9 +54,9 @@ Return the  **minimum**  number of operations required to make `s` sorted in  **
 ## Solution
 
 **Language:** C++  
-**Runtime:** 15 ms (beats 61.50%)  
-**Memory:** 27.3 MB (beats 92.92%)  
-**Submitted:** 2026-10-21T04:31:44.833Z  
+**Runtime:** 15 ms (beats 63.18%)  
+**Memory:** 27.5 MB (beats 79.55%)  
+**Submitted:** 2026-10-22T04:07:34.596Z  
 
 ```cpp
 class Solution {
