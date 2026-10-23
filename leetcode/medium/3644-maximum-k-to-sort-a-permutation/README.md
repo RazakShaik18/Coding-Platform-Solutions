@@ -52,26 +52,24 @@ Only `k = 0` allows sorting since no greater `k` allows the required swaps where
 
 ## Solution
 
-**Language:** C++  
-**Runtime:** 3 ms (beats 40.95%)  
-**Memory:** 152.9 MB (beats 21.90%)  
-**Submitted:** 2026-10-23T02:43:03.100Z  
+**Language:** Java  
+**Runtime:** 2 ms (beats 69.77%)  
+**Memory:** 110.3 MB (beats 74.42%)  
+**Submitted:** 2026-10-23T02:58:13.803Z  
 
-```cpp
+```java
 class Solution {
-public:
-    int sortPermutation(vector<int>& nums) {
-        int n = nums.size();
-        int res = INT_MAX;
-        for (int i = 0; i < n; i++) {
-            if (nums[i] == i) {
-                continue;
+    public int sortPermutation(int[] nums) {
+        int n = nums.length;
+        int res = -1;
+        for(int i = 0;i<n;i++){
+            if(nums[i]!=i){
+                res &= nums[i];
             }
-            res &= nums[i];
         }
-        return res == INT_MAX ? 0 : res;
+        return Math.max(res,0);
     }
-};
+}
 ```
 
 ---
