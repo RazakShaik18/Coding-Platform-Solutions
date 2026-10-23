@@ -43,9 +43,9 @@ Given an array of strings `strs`, group the anagrams together. You can return th
 ## Solution
 
 **Language:** C++  
-**Runtime:** 15 ms (beats 70.78%)  
-**Memory:** 25 MB (beats 82.12%)  
-**Submitted:** 2026-10-23T04:49:02.332Z  
+**Runtime:** 14 ms (beats 75.27%)  
+**Memory:** 25 MB (beats 73.34%)  
+**Submitted:** 2026-10-23T04:49:18.099Z  
 
 ```cpp
 class Solution {
