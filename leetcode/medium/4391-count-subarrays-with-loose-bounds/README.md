@@ -47,15 +47,14 @@ The loose-bound subarrays are `[1]`, `[1]`, and `[1, 1]`. The minimum value in t
 
 **Language:** Java  
 **Runtime:** 7 ms (beats 100.00%)  
-**Memory:** 195.8 MB (beats 100.00%)  
-**Submitted:** 2026-10-24T14:52:18.916Z  
+**Memory:** 196.1 MB (beats 100.00%)  
+**Submitted:** 2026-10-24T14:52:31.913Z  
 
 ```java
 class Solution {
     public long countSubarrays(int[] nums, int minK, int maxK) {
         int n = nums.length;
         long cnt = 0;
-        //int lastmin = -1,lastbad = -1,lastMax = -1;
         long len =  0;
         for(int i = 0;i<n;i++){
             if(nums[i]>=minK && nums[i]<=maxK){
