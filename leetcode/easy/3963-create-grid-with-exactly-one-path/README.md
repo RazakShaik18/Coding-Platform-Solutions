@@ -61,8 +61,8 @@ The only valid path is: `(0,0) → (0,1) → (0,2) → (0,3)`
 
 **Language:** C++  
 **Runtime:** 1 ms (beats 57.19%)  
-**Memory:** 11.1 MB (beats 57.19%)  
-**Submitted:** 2026-10-27T06:51:19.870Z  
+**Memory:** 11.2 MB (beats 57.19%)  
+**Submitted:** 2026-10-27T06:51:47.738Z  
 
 ```cpp
 class Solution {
