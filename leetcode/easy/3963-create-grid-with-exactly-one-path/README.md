@@ -60,9 +60,9 @@ The only valid path is: `(0,0) → (0,1) → (0,2) → (0,3)`
 ## Solution
 
 **Language:** C++  
-**Runtime:** 3 ms (beats 34.59%)  
-**Memory:** 11.1 MB (beats 46.14%)  
-**Submitted:** 2026-10-29T15:02:51.775Z  
+**Runtime:** 2 ms (beats 57.49%)  
+**Memory:** 10.8 MB (beats 94.85%)  
+**Submitted:** 2026-10-30T12:33:34.961Z  
 
 ```cpp
 class Solution {
