@@ -53,9 +53,9 @@ Now, all elements of `nums` are equal to 5. The minimum total moves is `2`.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 1 ms (beats 27.20%)  
-**Memory:** 31.3 MB (beats 94.72%)  
-**Submitted:** 2026-11-03T11:12:53.679Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 31.5 MB (beats 79.45%)  
+**Submitted:** 2026-11-03T11:13:55.966Z  
 
 ```cpp
 class Solution {
