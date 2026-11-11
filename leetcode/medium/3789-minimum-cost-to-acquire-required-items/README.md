@@ -18,6 +18,8 @@ Return an integer representing the  **minimum**  possible total cost to achieve 
 
  
 
+Original
+C++
  **Example 1:** 
 
  **Input:**  cost1 = 3, cost2 = 2, costBoth = 1, need1 = 3, need2 = 2
@@ -60,9 +62,9 @@ Since no items are required (`need1 = need2 = 0`), we buy nothing and pay 0.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 9.1 MB (beats 91.86%)  
-**Submitted:** 2026-10-24T10:12:02.108Z  
+**Runtime:** 2 ms (beats 5.29%)  
+**Memory:** 9.2 MB (beats 81.76%)  
+**Submitted:** 2026-11-11T04:35:33.139Z  
 
 ```cpp
 class Solution {
