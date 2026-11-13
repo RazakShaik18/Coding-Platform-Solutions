@@ -63,8 +63,8 @@ Hence, we return `3`.
 
 **Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 27.9 MB (beats 48.88%)  
-**Submitted:** 2026-11-12T01:01:55.107Z  
+**Memory:** 27.6 MB (beats 100.00%)  
+**Submitted:** 2026-11-13T17:06:03.285Z  
 
 ```cpp
 
