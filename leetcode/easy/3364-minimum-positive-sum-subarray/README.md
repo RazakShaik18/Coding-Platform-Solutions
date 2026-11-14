@@ -62,39 +62,32 @@ The subarray `[1, 2]` has a length of 2 and the minimum sum greater than 0. So, 
 ## Solution
 
 **Language:** C++  
-**Runtime:** 2 ms (beats 46.41%)  
-**Memory:** 30.3 MB (beats 11.91%)  
-**Submitted:** 2026-11-14T16:30:27.661Z  
+**Runtime:** 1 ms (beats 62.00%)  
+**Memory:** 29.5 MB (beats 37.48%)  
+**Submitted:** 2026-11-14T16:31:39.325Z  
 
 ```cpp
 class Solution {
 public:
     int minimumSumSubarray(vector<int>& nums, int l, int r) {
         int n = nums.size();
+        int minSum = INT_MAX;
 
-        vector<int> prefix(n + 1, 0);
+        for(int i = 0; i < n; i++) {
+            int sum = 0;
 
-        // Build prefix sum
-        for (int i = 0; i < n; i++) {
-            prefix[i + 1] = prefix[i] + nums[i];
-        }
+            for(int j = i; j < n; j++) {
+                sum += nums[j];
 
-        int ans = INT_MAX;
-        // Check all possible subarrays
-        for (int i = 0; i < n; i++) {
-            for (int len = l; len <= r; len++) {
+                int len = j - i + 1;
 
-                if (i + len <= n) {
-                    int sum = prefix[i + len] - prefix[i];
-
-                    if (sum > 0) {
-                        ans = min(ans, sum);
-                    }
+                if(sum > 0 && len >= l && len <= r) {
+                    minSum = min(minSum, sum);
                 }
             }
         }
 
-        return ans == INT_MAX ? -1 : ans;
+        return minSum == INT_MAX ? -1 : minSum;
     }
 };
 ```
