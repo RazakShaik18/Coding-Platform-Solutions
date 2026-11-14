@@ -62,9 +62,9 @@ The subarray `[1, 2]` has a length of 2 and the minimum sum greater than 0. So, 
 ## Solution
 
 **Language:** C++  
-**Runtime:** 3 ms (beats 35.38%)  
-**Memory:** 30.4 MB (beats 9.46%)  
-**Submitted:** 2026-11-14T16:26:02.027Z  
+**Runtime:** 2 ms (beats 46.41%)  
+**Memory:** 30.3 MB (beats 11.91%)  
+**Submitted:** 2026-11-14T16:30:27.661Z  
 
 ```cpp
 class Solution {
